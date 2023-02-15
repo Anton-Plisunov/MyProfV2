@@ -11,7 +11,6 @@
         font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, serif;
         font-size: 50px;
         text-shadow: 5px 2px 8px rgba(0, 0, 0, 0.289);
-
         opacity: 0;
         animation: ani 2.5s forwards;
       }
@@ -28,6 +27,10 @@
       li {
         margin: 5px;
         font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .list {
+        list-style-type: none;
       }
 
       h1,
@@ -48,7 +51,7 @@
 
       p {
         font-family: Arial, Helvetica, sans-serif;
-        text-align: center;
+
         font-size: larger;
       }
 
@@ -88,10 +91,6 @@
         padding: 300px;
         text-align: center;
         background: rgba(0, 0, 0, 0);
-      }
-
-      .header h1 {
-        font-size: 50px;
       }
 
       .headline {
@@ -196,8 +195,9 @@
       /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
       @media screen and (max-width: 440px) {
         .header {
-          padding: 100px 0px 520px 0px;
+          padding: 350px 0px 520px 0px;
         }
+
         .topnav a {
           float: none;
           width: 100%;
@@ -265,18 +265,18 @@
           <ul>
             <li>Birthday 10 may 1993</li>
             <li>Experience</li>
-            <ul>
+            <ul class="list">
               <li>Gaffer/Lighting technician (11 years)</li>
               <li>Lighting designer (8 years)</li>
             </ul>
             <li>Language</li>
-            <ul>
+            <ul class="list">
               <li>Russian (nativ)</li>
               <li>English (intermediat)</li>
               <li>Italiano (beginner)</li>
             </ul>
             <li>Hobby</li>
-            <ul>
+            <ul class="list">
               <li>Cooking</li>
               <li>Travel</li>
               <li>Music</li>
