@@ -1,0 +1,254 @@
+.head {
+  color: #ffffff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, serif;
+  font-size: 50px;
+  text-shadow: 5px 2px 8px rgba(0, 0, 0, 0.289);
+
+  opacity: 0;
+  animation: ani 2.5s forwards;
+}
+
+@keyframes ani {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+ul {
+  padding-inline-start: 20px;
+  list-style-type: square;
+}
+
+li {
+  margin-top: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+}
+
+.list {
+  list-style-type: none;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, serif;
+  text-shadow: 2px 1px 2px rgba(191, 255, 0, 0.249);
+}
+
+h2,
+h3 {
+  display: inline;
+  background-color: rgba(0, 0, 0, 0.067);
+  padding: 10px;
+  border-radius: 20px;
+  text-shadow: 2px 0px#000000;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  text-indent: 20px;
+  font-size: larger;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #ddd;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  background: linear-gradient(
+    to right bottom,
+    #000000 20%,
+    #05bbf7,
+    #006ea1c2,
+    #000000
+  );
+  animation: gradient 15s infinite;
+  background-size: 200%;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 80% 0%;
+  }
+  50% {
+    background-position: 20% 100%;
+  }
+  100% {
+    background-position: 80% 0%;
+  }
+}
+
+/* Header */
+.header {
+  padding: 300px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0);
+}
+
+.headline {
+  text-decoration: none;
+  background: linear-gradient(to right, transparent, transparent),
+    linear-gradient(to right, #0073ff, #ffffff, #e0f401);
+  background-size: 100% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size;
+  transition: background-size 400ms;
+}
+a:hover {
+  background-size: 0 3px, 100% 3px;
+}
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #33333310;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #dddddd1e;
+  color: rgb(191, 255, 0);
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+
+  padding-left: 20px;
+}
+
+/* About me card */
+.cardtop {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  border-bottom: 2px dashed rgba(253, 255, 142, 0.315);
+  margin-bottom: 30px;
+}
+.aboutmename {
+  width: 40%;
+  padding: 50px 0px 0px 0px;
+  float: right;
+  text-align: center;
+}
+
+.photo {
+  background-color: #0c0c0c5e;
+  width: 100%;
+  border-radius: 1%;
+  box-shadow: 0px 2px 10px rgba(192, 255, 2, 0.245);
+}
+
+.personPhoto {
+  width: 60%;
+  height: auto;
+  border-radius: 50%;
+  margin: 30px 0 20px 0;
+  float: left;
+  box-shadow: 0px 2px 10px rgba(192, 255, 2, 0.367);
+}
+
+/* all card */
+
+.card {
+  background-color: rgba(95, 94, 94, 0.679);
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  border-style: solid;
+  border-radius: 20px;
+  padding: 5px 20px 5px 20px;
+  color: #ddd;
+  font-size: medium;
+  background-color: #00000007;
+  border-color: #e0f401;
+  box-shadow: 0px 2px 10px rgba(192, 255, 2, 0.523);
+  transition: 0.5s;
+}
+
+button:hover {
+  background-color: #e0f401;
+  box-shadow: 0px 2px 20px rgba(192, 255, 2, 0.523);
+  color: #000000;
+  transition: 0.5s;
+  transform: scale(1.2);
+}
+
+/* more text, btn */
+
+#more {
+  display: none;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 850px) {
+  .header {
+    padding: 500px 0px 650px 0px;
+  }
+
+  .leftcolumn,
+  .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .header {
+    padding: 300px 0px 520px 0px;
+  }
+
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+
+  .aboutmename {
+    padding: 40px 0px 0px 0px;
+  }
+}
