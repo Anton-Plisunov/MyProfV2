@@ -181,6 +181,8 @@ a:hover {
   padding: 20px;
   margin-top: 20px;
   border-radius: 20px;
+  border: 1px solid #e0f40184;
+  box-shadow: 0px 0px 10px #e0f40171;
 }
 
 button {
@@ -192,6 +194,7 @@ button {
   padding: 5px 20px 5px 20px;
   color: #ddd;
   font-size: medium;
+  text-shadow: 2px 1px 2px #000000ab;
   background-color: #00000007;
   border-color: #e0f401;
   box-shadow: 0px 2px 10px rgba(192, 255, 2, 0.523);
@@ -202,8 +205,25 @@ button:hover {
   background-color: #e0f401;
   box-shadow: 0px 2px 20px rgba(192, 255, 2, 0.523);
   color: #000000;
+  text-shadow: 0px 0px 0px #000000ab;
   transition: 0.5s;
   transform: scale(1.2);
+}
+
+.contactlogoA {
+  display: inline-flex;
+  width: 20%;
+  margin: 5%;
+}
+
+.imgblock {
+  display: inline-block;
+}
+
+.contactlogoB {
+  display: inline-flex;
+  max-width: 100%;
+  margin: 5%;
 }
 
 /* more text, btn */
@@ -223,7 +243,6 @@ button:hover {
 .footer {
   padding: 20px;
   text-align: center;
-
   margin-top: 40px;
 }
 
