@@ -186,6 +186,7 @@ a:hover {
 button {
   display: block;
   margin: 0 auto;
+  margin-top: 20px;
   border-style: solid;
   border-radius: 20px;
   padding: 5px 20px 5px 20px;
@@ -222,8 +223,8 @@ button:hover {
 .footer {
   padding: 20px;
   text-align: center;
-  background: #ddd;
-  margin-top: 20px;
+
+  margin-top: 40px;
 }
 
 @media screen and (max-width: 850px) {
