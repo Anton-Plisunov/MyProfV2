@@ -241,7 +241,7 @@ button:hover {
 
 @media screen and (max-width: 440px) {
   .header {
-    padding: 300px 0px 520px 0px;
+    padding: 250px 0px 520px 0px;
   }
 
   .topnav a {
