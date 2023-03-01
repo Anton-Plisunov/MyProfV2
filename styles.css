@@ -42,10 +42,8 @@ h3 {
 h2,
 h3 {
   display: inline;
-  background-color: rgba(0, 0, 0, 0.067);
-  padding: 10px;
-  border-radius: 20px;
-  text-shadow: 2px 0px#000000;
+  color: #dfdcdc;
+  text-shadow: 1px 1px 1px #000000c8;
 }
 
 p {
@@ -185,7 +183,12 @@ a:hover {
 /* all card */
 
 .card {
-  background-color: rgba(95, 94, 94, 0.679);
+  background: linear-gradient(
+      to right bottom,
+      rgba(255, 38, 204, 0.478),
+      rgba(0, 0, 0, 0) 40%
+    ),
+    linear-gradient(to left top, rgba(0, 0, 0, 0.249), rgba(0, 0, 0, 0.032));
   padding: 20px;
   margin-top: 20px;
   border-radius: 20px;
