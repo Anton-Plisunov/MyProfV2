@@ -196,6 +196,39 @@ a:hover {
   box-shadow: 0px 0px 10px #e0f40171;
 }
 
+.github {
+  display: block;
+  width: 50px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.mini-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.mini-card {
+  flex-basis: calc(33.33% - 10px);
+  margin-right: 10px;
+}
+.shortsYT {
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  max-width: 80%;
+}
+.shortsYTborder {
+  display: block;
+  border-radius: 30px;
+  padding: 10px;
+  background-color: #000000;
+  border: 1px solid #e0f40184;
+  box-shadow: 1px 0px 10px #e0f40171;
+}
+
 button {
   display: block;
   margin: 0 auto;
@@ -260,6 +293,11 @@ button:hover {
 @media screen and (max-width: 850px) {
   .header {
     padding: 500px 0px 650px 0px;
+  }
+  .mini-cards {
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
   }
 
   .leftcolumn,
