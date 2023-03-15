@@ -198,7 +198,7 @@ a:hover {
 
 .github {
   display: block;
-  width: 50px;
+  width: 70px;
   margin: auto;
   margin-top: 40px;
 }
@@ -213,6 +213,16 @@ a:hover {
   flex-basis: calc(33.33% - 10px);
   margin-right: 10px;
 }
+
+.imgMinicard {
+  display: flex;
+  overflow: hidden;
+  height: 535px;
+  width: 80%;
+  margin: auto;
+  border-radius: 30px;
+  box-shadow: 1px 0px 10px #e0f40171;
+}
 .shortsYT {
   display: flexbox;
   justify-content: center;
@@ -222,7 +232,7 @@ a:hover {
 }
 .shortsYTborder {
   display: block;
-  border-radius: 30px;
+  border-radius: 40px;
   padding: 10px;
   background-color: #000000;
   border: 1px solid #e0f40184;
