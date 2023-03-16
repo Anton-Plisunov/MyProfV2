@@ -1,0 +1,19 @@
+.header {
+  padding: 300px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0);
+}
+
+.headline {
+  text-decoration: none;
+  background: linear-gradient(to right, transparent, transparent),
+    linear-gradient(to right, #0073ff, #ffffff, #e0f401);
+  background-size: 100% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size;
+  transition: background-size 400ms;
+}
+a:hover {
+  background-size: 0 3px, 100% 3px;
+}

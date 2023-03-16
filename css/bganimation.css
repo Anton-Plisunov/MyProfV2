@@ -1,0 +1,26 @@
+body {
+  color: #ddd;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  background: linear-gradient(
+    to right bottom,
+    #000000 20%,
+    #05bbf7,
+    #006ea1c2,
+    #000000
+  );
+  animation: gradient 15s infinite;
+  background-size: 200%;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 80% 0%;
+  }
+  50% {
+    background-position: 20% 100%;
+  }
+  100% {
+    background-position: 80% 0%;
+  }
+}

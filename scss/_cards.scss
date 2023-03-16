@@ -1,0 +1,156 @@
+$primary-color: #e0f401;
+$secondary-color: rgba(192, 255, 2, 0.523);
+$shadow-color: rgba(192, 255, 2, 0.367);
+// all card
+.card {
+  background: linear-gradient(
+      to right bottom,
+      rgba(255, 38, 204, 0.478),
+      rgba(0, 0, 0, 0) 40%
+    ),
+    linear-gradient(to left top, rgba(0, 0, 0, 0.249), rgba(0, 0, 0, 0.032));
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 20px;
+  border: 1px solid #e0f40184;
+  box-shadow: 0px 0px 10px #e0f40171;
+}
+// btn main card
+button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-style: solid;
+  border-radius: 20px;
+  padding: 5px 20px 5px 20px;
+  color: #ddd;
+  font-size: medium;
+  text-shadow: 2px 1px 2px #000000ab;
+  background-color: #00000007;
+  border-color: $primary-color;
+  box-shadow: 0px 2px 10px $shadow-color;
+  transition: 0.5s;
+}
+
+button:hover {
+  background-color: $primary-color;
+  box-shadow: 0px 2px 20px $shadow-color;
+  color: #000000;
+  text-shadow: 0px 0px 0px #000000ab;
+  transition: 0.5s;
+  transform: scale(1.2);
+}
+// script btn
+#more {
+  display: none;
+}
+
+// About me card
+.cardtop {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  border-bottom: 2px dashed rgba(253, 255, 142, 0.315);
+  margin-bottom: 30px;
+}
+.aboutmename {
+  width: 40%;
+  padding: 50px 0px 0px 0px;
+  float: right;
+  text-align: center;
+}
+
+.photo {
+  background-color: #0c0c0c5e;
+  width: 100%;
+  border-radius: 30px;
+  box-shadow: 0px 2px 10px $shadow-color;
+}
+
+.personPhoto {
+  width: 60%;
+  height: auto;
+  border-radius: 50%;
+  margin: 30px 0 20px 0;
+  float: left;
+  box-shadow: 0px 2px 10px $shadow-color;
+}
+// Mini-cards
+.mini-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.mini-card {
+  flex-basis: calc(33.33% - 10px);
+  margin-right: 10px;
+}
+.headMC {
+  position: relative;
+  display: inline-flexbox;
+  width: 100%;
+  height: 100px;
+}
+h5 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 20px;
+  border-radius: 50px;
+  padding: 7px;
+  background-color: #00000037;
+  box-shadow: 0px 0px 10px $shadow-color;
+}
+
+.imgMinicard {
+  display: flex;
+  overflow: hidden;
+  height: 535px;
+  width: 80%;
+  margin: auto;
+  border-radius: 30px;
+  box-shadow: 1px 0px 10px $shadow-color;
+  background-color: #000000;
+}
+// Youtube shorts
+.shortsYT {
+  display: flexbox;
+  margin: auto;
+  max-width: 80%;
+}
+.shortsYTborder {
+  display: block;
+  border-radius: 40px;
+  padding: 10px;
+  background-color: #000000;
+  border: 1px solid #e0f40184;
+  box-shadow: 1px 0px 10px $shadow-color;
+}
+
+.reactimg {
+  margin: auto;
+  width: 100%;
+  background-color: #000000;
+  padding: 20px;
+}
+//logo git
+.github {
+  display: block;
+  margin-top: 50px;
+  max-width: 70px;
+  width: 100%;
+  justify-items: center;
+  bottom: 0;
+}
+//logo follow me
+.contactlogoA {
+  display: inline-flex;
+  width: 20%;
+  margin: 5%;
+}
+
+.imgblock {
+  display: inline-block;
+}

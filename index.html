@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AntonPlisunov</title>
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <div class="header">
@@ -19,8 +19,10 @@
     <div class="row">
       <div class="leftcolumn">
         <div class="card">
-          <h2>New way</h2>
-          <h5>Istanbul , Fev 13, 2023</h5>
+          <div class="headMC">
+            <h2>New way</h2>
+            <h5>Istanbul , Fev 13, 2023</h5>
+          </div>
           <img
             class="photo"
             src="img/Codi.jpg"
@@ -41,12 +43,14 @@
         </div>
         <div class="mini-cards">
           <div class="card mini-card">
-            <h2>First app React Native</h2>
-            <h5>Istanbul, March 14, 2023</h5>
+            <div class="headMC">
+              <h2>First app React Native</h2>
+              <h5>Istanbul, March 14, 2023</h5>
+            </div>
             <div class="shortsYT">
               <iframe
                 class="shortsYTborder"
-                width="257"
+                width="100%"
                 height="535"
                 src="https://www.youtube.com/embed/NOa9UYa3iJ0"
                 title=""
@@ -67,25 +71,37 @@
             /></a>
           </div>
           <div class="card mini-card">
-            <h2>My Ligthing designer's website</h2>
-            <h5>Istanbul, jan 16, 2023</h5>
+            <div class="headMC">
+              <h2>My LD's website</h2>
+              <h5>Istanbul, jan 16, 2023</h5>
+            </div>
             <div>
-              <img class="imgMinicard" src="img/Lamp.png" alt="lamp" />
+              <img
+                class="imgMinicard"
+                src="img/react.png"
+                alt="lamp"
+                width="50px"
+              />
             </div>
             <p>My Lighting profile<span>...</span></p>
             <p>
               This is a simple site, my first job, I will update this site, but
               now I'm busy with my favorite projects. Here you can see my work
-              on lighting, quite a few fun projects have been done
+              on lighting, quite a few fun projects have been done. Works of TV
+              and cinema.
             </p>
             <a href="https://github.com/Anton-Plisunov/profile" target="_blank"
               ><img class="github" src="img/github.png" alt="github"
             /></a>
           </div>
           <div class="card mini-card">
-            <h2>Here will by React</h2>
-            <h5>Title description, Sep 2, 2017</h5>
-            <div class="fakeimg" style="height: 200px">Image</div>
+            <div class="headMC">
+              <h2>Here will by React</h2>
+              <h5>Title description, Sep 2, 2017</h5>
+            </div>
+            <div class="imgMinicard">
+              <img class="reactimg" src="img/react.png" alt="lamp" />
+            </div>
             <p>Some text<span>...</span></p>
             <p>
               Sunt in culpa qui officia deserunt mollit anim id est laborum
@@ -107,8 +123,7 @@
               <img class="personPhoto" src="img/Me.jpg" alt="me" />
             </div>
             <div class="aboutmename">
-              <h4>Anton Plisunov</h4>
-              <hr />
+              <h6>Anton Plisunov</h6>
               <h4>Beginner developer</h4>
             </div>
           </div>
@@ -155,7 +170,7 @@
       </div>
     </div>
     <div class="footer">
-      <h5>Anton Plisunov IT page 2022</h5>
+      <h2>Anton Plisunov IT page 2022</h2>
     </div>
     <script src="javascript.js"></script>
   </body>

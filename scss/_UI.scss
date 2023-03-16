@@ -1,0 +1,31 @@
+@media screen and (max-width: 850px) {
+  .header {
+    padding: 500px 0px 650px 0px;
+  }
+  .mini-cards {
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+  }
+
+  .leftcolumn,
+  .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .header {
+    padding: 250px 0px 520px 0px;
+  }
+
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+
+  .aboutmename {
+    padding: 40px 0px 0px 0px;
+  }
+}
