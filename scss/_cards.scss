@@ -44,7 +44,28 @@ button:hover {
 #more {
   display: none;
 }
-
+//Form
+form {
+  display: flexbox;
+  padding: 5px;
+}
+input,
+textarea {
+  overflow: hidden;
+  width: 100%;
+  margin-top: 5px;
+  padding: 10px;
+  border-style: solid;
+  border-radius: 20px;
+  transition: height 0.5s ease-in-out;
+}
+textarea {
+  height: 40px;
+  resize: none;
+}
+textarea:focus {
+  height: 510px;
+}
 // About me card
 .cardtop {
   display: block;
@@ -118,6 +139,7 @@ h5 {
 .shortsYT {
   display: flexbox;
   margin: auto;
+  max-height: 535px;
   max-width: 80%;
 }
 .shortsYTborder {
@@ -138,7 +160,6 @@ h5 {
 //logo git
 .github {
   display: block;
-  margin-top: 50px;
   max-width: 70px;
   width: 100%;
   justify-items: center;

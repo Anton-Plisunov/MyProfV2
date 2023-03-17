@@ -290,6 +290,31 @@ button:hover {
   display: none;
 }
 
+form {
+  display: flexbox;
+  padding: 5px;
+}
+
+input,
+textarea {
+  overflow: hidden;
+  width: 100%;
+  margin-top: 5px;
+  padding: 10px;
+  border-style: solid;
+  border-radius: 20px;
+  transition: height 0.5s ease-in-out;
+}
+
+textarea {
+  height: 40px;
+  resize: none;
+}
+
+textarea:focus {
+  height: 510px;
+}
+
 .cardtop {
   display: block;
   width: 100%;
@@ -365,6 +390,7 @@ h5 {
 .shortsYT {
   display: flexbox;
   margin: auto;
+  max-height: 535px;
   max-width: 80%;
 }
 
@@ -386,7 +412,6 @@ h5 {
 
 .github {
   display: block;
-  margin-top: 50px;
   max-width: 70px;
   width: 100%;
   justify-items: center;

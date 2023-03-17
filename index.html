@@ -107,7 +107,6 @@
               Sunt in culpa qui officia deserunt mollit anim id est laborum
               consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
               labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-              nostrud exercitation ullamco.
             </p>
             <a href="" target="_blank"
               ><img class="github" src="img/github.png" alt="github"
@@ -163,9 +162,21 @@
         </div>
         <div class="card">
           <h2>Write me</h2>
-          <div class="cardtop">
-            <input type="email" name="" id="" />
-          </div>
+          <form action="">
+            <input type="text" id="name" placeholder="Your name..." required />
+            <input
+              type="email"
+              id="email"
+              placeholder="Your email..."
+              required
+            />
+            <textarea
+              id="message"
+              rows="4"
+              placeholder="Can I help you?"
+            ></textarea>
+            <button type="submit">Send</button>
+          </form>
         </div>
       </div>
     </div>
