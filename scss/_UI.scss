@@ -15,6 +15,11 @@
   }
   button {
     background-color: $primary-color;
+    box-shadow: 0px 2px 20px $shadow-color;
+    color: #000000;
+    text-shadow: 0px 0px 0px #000000ab;
+    transition: 0.5s;
+    transform: scale(1.2);
   }
 }
 

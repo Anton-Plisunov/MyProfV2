@@ -40,6 +40,12 @@ button:hover {
   transition: 0.5s;
   transform: scale(1.2);
 }
+//text wrap
+.textWrap {
+  display: block;
+  transition: 1s;
+  transform: x;
+}
 // script btn
 #more {
   display: none;

@@ -134,7 +134,7 @@ ul {
 li {
   margin-top: 5px;
   font-family: "PT Sans", sans-serif, Arial, serif;
-  font-size: larger;
+  font-size: 1.2rem;
 }
 
 .list {
@@ -154,7 +154,6 @@ h1,
 h2,
 h3 {
   font-family: "Kanit", sans-serif, Arial, serif;
-  text-shadow: 2px 1px 2px rgba(191, 255, 0, 0.249);
   font-size: 40px;
   padding: 2px;
 }
@@ -164,13 +163,6 @@ h4 {
   font-family: "PT Sans", sans-serif, Arial, serif;
   padding: 5px;
   font-size: 20px;
-}
-
-h5 {
-  float: right;
-  font-family: "PT Sans", sans-serif, Arial, serif;
-  padding: 5px;
-  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.996);
 }
 
 p {
@@ -284,6 +276,12 @@ button:hover {
   text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.6705882353);
   transition: 0.5s;
   transform: scale(1.2);
+}
+
+.textWrap {
+  display: block;
+  transition: 1s;
+  transform: x;
 }
 
 #more {
@@ -451,6 +449,11 @@ h5 {
   }
   button {
     background-color: #e0f401;
+    box-shadow: 0px 2px 20px rgba(192, 255, 2, 0.367);
+    color: #000000;
+    text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.6705882353);
+    transition: 0.5s;
+    transform: scale(1.2);
   }
 }
 @media screen and (max-width: 440px) {
